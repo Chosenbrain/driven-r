@@ -1,0 +1,41 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/08/2018 00:48
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon/font/Flaticon.cc5df4fe24ef.eot");
+  src: url("../fonts/flaticon/font/Flaticon.cc5df4fe24ef.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon/font/Flaticon.7c71b785c99d.woff") format("woff"),
+       url("../fonts/flaticon/font/Flaticon.f49fdeee054c.ttf") format("truetype"),
+       url("../fonts/flaticon/font/Flaticon.8057f870a88b.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/font/Flaticon.8057f870a88b.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-house-plans:before { content: "\f100"; }
+.flaticon-modern-house:before { content: "\f101"; }
+.flaticon-ideas:before { content: "\f102"; }
+.flaticon-skyline:before { content: "\f103"; }
